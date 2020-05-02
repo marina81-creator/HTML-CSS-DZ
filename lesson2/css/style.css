@@ -1,0 +1,29 @@
+h1
+{
+    font-family: 'Bangers', cursive;
+ text-align: center
+}
+body
+{
+    background-color: salmon;
+}
+div
+{
+    width: 500px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto;
+}
+hr
+    {
+        width: 500px;
+    }
+    img 
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    p.font
+{
+    font-family: 'Bangers', cursive;  
+}
