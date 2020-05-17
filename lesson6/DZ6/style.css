@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+}
+
+.wrapper {
+    border: 1px solid green;
+    width: 800px;
+    margin: 150px;
+}
+
+.header-top {
+    background: yellowgreen;
+    border: 1px, solid green;
+    padding: 10px 5px 10px 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.select-top {
+    background: yellowgreen;
+    border: none;
+    font-size: 9px;
+}
+
+.main { display: flex;
+    justify-content: space-between;
+}
+
+.left-input {
+    width: 160px;
+}
+
+.form-input {
+    width: 80px;
+    margin-right: 80px;
+}
+
+.web-input {
+    width: 100px;
+}
+
+.Url {
+    margin-left: 110px;
+    font-weight: normal;
+}
+
+.link{
+    margin-left: 180px;
+    font-weight: normal;
+}
+    
+.input-item {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    background: rgb(190, 175, 175);
+    justify-content: center;
+    display: flex;
+}
+.header-bottom > button {
+    background: yellowgreen;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    color: honeydew;
+    border: 1px solid grey;
+    width: 80px;
+}
+
+.radiolabel {
+     display: flex;
+     display: block;
+     margin-left: 200px;
+     margin-right: 50px;
+     font-size: 10px;
+     font-weight: normal;
+}
