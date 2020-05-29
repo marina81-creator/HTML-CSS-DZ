@@ -1,0 +1,33 @@
+@media (max-width:960px) {
+.wrapper {
+    width: 728px;
+}
+.nav-menu {
+    width: 100%;
+    } 
+}
+
+@media (max-width: 768px){
+    .wrapper{
+        width: 440px;
+    }
+    .header-menu{
+        justify-content: center;
+    }
+    ul.nav-menu li {
+        display: none;
+        }
+    ul.nav-menu li:first-child {
+        display:block;
+        margin-right: 0px;
+    }
+    .nav-menu {
+        justify-content: center;
+    }
+}
+
+@media ( max-width: 480px) {
+    .wrapper {
+        width: 280px;
+    }
+}

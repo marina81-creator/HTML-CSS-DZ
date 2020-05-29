@@ -91,6 +91,12 @@ ul.nav-menu > li {
 .sub-menu > li {
     margin-left: 10px;
 }
+.select {
+    border: none;
+    color: white;
+    background: #303030;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 div.main > div {
     float: left;

@@ -1,0 +1,99 @@
+header {
+    background-image: url(./img/bg.jpg);
+    height: 400px;
+    background-position: center;
+    position: relative;
+}
+
+.wrapper {
+    width: 960px;
+    margin:0 auto;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-menu {
+display: flex;
+list-style-type: none;
+}
+
+ul.nav-menu a {
+line-height: 61px;
+color: white;
+text-decoration: none;
+}
+
+ul.nav-menu li {
+    margin-right: 52px;
+    text-transform: uppercase;
+}
+
+ul.nav-menu li:last-child {
+    margin-right: 0px;
+}
+
+ul.nav-menu li:first-child {
+    /* position: absolute; */
+}
+
+.content {
+    display: flex;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    top: 80px;
+    .overlay {
+        background-color: rgb(0, 0, 0, 0.1);
+        opacity: 0.2;
+        position: absolute;
+        left: 0px;
+        top: 278px;
+        width: 2400px;
+        height: 400px;
+        z-index: 102;
+      }
+      
+}
+
+.slider-discription {
+    width: 500px;
+    margin-top: 90px;
+}
+
+.slider-img {
+    margin-top: -25px;
+    position: relative;
+}
+
+.slider-img a {
+    position: absolute;
+    transition: 1s;
+    margin-top: 40%;
+    margin-left: -52%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #fefefe;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+h2 {
+    margin-top: 7px;
+    font-family: 'Oswald', sans-serif;
+    color: #edbfff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.radio-slider-container {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20px;
