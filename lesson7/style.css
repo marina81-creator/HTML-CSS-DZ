@@ -3,10 +3,11 @@ header {
     height: 400px;
     background-position: center;
     position: relative;
+    padding-bottom: 160px;
 }
 
 .wrapper {
-    width: 960px;
+    width: 950px;
     margin:0 auto;
 }
 
@@ -17,14 +18,16 @@ header {
 }
 
 .nav-menu {
-display: flex;
-list-style-type: none;
+    display: flex;
+    list-style-type: none;
 }
 
 ul.nav-menu a {
-line-height: 61px;
-color: white;
-text-decoration: none;
+    line-height: 61px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    font-family:'Oswald', sans-serif;
 }
 
 ul.nav-menu li {
@@ -36,39 +39,48 @@ ul.nav-menu li:last-child {
     margin-right: 0px;
 }
 
-ul.nav-menu li:first-child {
-    /* position: absolute; */
-}
-
 .content {
     display: flex;
 }
 
 .slider {
-    position: relative;
+    position: absolute;
     width: 100%;
     top: 80px;
-    .overlay {
-        background-color: rgb(0, 0, 0, 0.1);
-        opacity: 0.2;
-        position: absolute;
-        left: 0px;
-        top: 278px;
-        width: 2400px;
-        height: 400px;
-        z-index: 102;
-      }
-      
+    background-color: rgba( 0, 0, 0, 0.1)
 }
 
 .slider-discription {
-    width: 500px;
+    width: 450px;
     margin-top: 90px;
+}
+
+.slider-discription h2 {
+    font-size: 34px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #fefefe;
+    text-transform: capitalize;
+}
+
+.slider-discription h3 {
+    font-size: 25px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #edbfff;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.slider-discription p {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
 }
 
 .slider-img {
     margin-top: -25px;
     position: relative;
+    margin-left: 120px;
 }
 
 .slider-img a {
@@ -78,22 +90,264 @@ ul.nav-menu li:first-child {
     margin-left: -52%;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    color: #fefefe;
-    font-size: 60px;
-    text-transform: capitalize;
-}
-
-h2 {
-    margin-top: 7px;
-    font-family: 'Oswald', sans-serif;
-    color: #edbfff;
-    font-size: 25px;
-    text-transform: uppercase;
-}
-
-.radio-slider-container {
+.radio-slider {
     position: absolute;
-    margin-left: 30%;
+    margin-left: 710px;
     margin-top: 20px;
+}
+ main {
+    background-image: url(../lesson7/img/Untitled-1.png);
+    height: 340px;
+    }
+
+.about {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.about h1 {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Pathway Gothic One', sans-serif;
+    }
+
+.about span {
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 1.5;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.about a {
+        margin-left: 180px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: 'Pathway Gothic One', sans-serif;
+        text-decoration: none;
+    }
+
+.read-more1 {
+    width: 250px;
+    margin-top: 75px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.read-more1 a {
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+} 
+
+.read-more2 {
+    width: 250px;
+    margin-top: 75px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.read-more3 {
+    width: 250px;
+    margin-top: 75px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.read-more1::before {
+        content: url(./img/Untitled-11.jpg);
+        position: absolute;
+        margin-left: -45px;
+        width: 31px;
+        height: 32px;
+}
+
+.read-more2::before {
+        content: url(./img/Untitled-12.jpg);
+        position: absolute;
+        margin-left: -45px;
+        width: 31px;
+        height: 32px;
+}
+
+.read-more3:before {
+        content: url(./img/Untitled-13.jpg);
+        position: absolute;
+        margin-left: -45px;
+        width: 31px;
+        height: 32px;
+    }
+
+.mesage {
+    background-image: url(./img/Untitled-3.jpg);
+    width: 430px;
+    height: 270px;
+    margin-top: 100px;
+}
+
+.colortext {
+    color: #454545;
+}
+
+.mesage::before {
+    content: url(./img/Untitled-14.jpg);
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.mesage h1 {
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #edbfff;
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.mesage p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px 50px 40px 40px;
+    background-image: url(./img/Untitled-3.jpg);
+} 
+
+article {
+    background-color: #f9f9f9;
+    height: 485px;
+}
+
+.updates {
+    display: flex;
+    height: 485px;
+}
+
+.recent-updates {
+       display: block;
+       width: 450px;
+       margin-top: 100px;
+       margin-left: 50px;
+}
+
+.recent-updates h1 {
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #454545;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.recent-updates h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.recent-updates a {
+    margin-left: 300px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    color: #454545;
+}
+
+.recent-news {
+    display: flex;
+}
+
+.news h5 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: bold;
+}
+
+.news {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+   
+.radio {
+    margin-top: 20px;
+    margin-left: 195px;
+    background-color: #f9f9f9;
+}
+
+.categories {
+       display: flex;
+}
+
+figure {
+        border-top: 1px solid #e6e6e6;
+}
+
+section {
+       background-image: url(./img/Untitled-8.jpg);
+       height: 400px;
+}
+
+.section {
+        margin-top: 100px;
+}
+
+.section h1 {
+       color: #454545;
+       font-size: 20px;
+       font-family: 'Pathway Gothic One', sans-serif;
+       font-weight: bold;
+       text-transform: uppercase;
+}
+
+.section span {
+    line-height: 1.5;
+    color: #787878;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+footer {
+    background-image: url(./img/bg-2.jpg);
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-design {
+        color: #ffffff;
+        line-height: 61px;
+}
+
+.footer-design h1 {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pingbul {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+      
