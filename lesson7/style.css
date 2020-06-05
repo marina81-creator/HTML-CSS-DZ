@@ -39,6 +39,11 @@ ul.nav-menu li:last-child {
     margin-right: 0px;
 }
 
+ul.nav-menu li:hover {
+    background: #786b59; /* Цвет фона под ссылкой */ 
+    color: #ffe;
+}
+
 .content {
     display: flex;
 }
